@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/choky"
+    tools:context="com.think.dd.chk1app.MainActivity">
+
+    <CheckBox
+        android:text="munch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/a" />
+
+    <CheckBox
+        android:textColor="@color/white"
+        android:text="diarymilk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a1"
+        android:layout_alignLeft="@+id/a1"
+        android:layout_alignStart="@+id/a1"
+        android:layout_marginTop="13dp"
+        android:id="@+id/c" />
+
+    <CheckBox
+        android:text="munch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/a1"
+        android:layout_below="@+id/b"
+        android:layout_alignLeft="@+id/a"
+        android:textColor="@color/white"
+        android:layout_alignStart="@+id/a" />
+
+    <CheckBox
+        android:text="5star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/b"
+        android:layout_below="@+id/a"
+        android:textColor="@color/white"
+        android:layout_alignLeft="@+id/b1"
+        android:layout_alignStart="@+id/b1" />
+
+    <CheckBox
+        android:text="5star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:layout_below="@+id/c"
+        android:textColor="@color/white"
+        android:layout_alignLeft="@+id/c"
+        android:layout_alignStart="@+id/c"
+        android:layout_marginTop="14dp" />
+
+    <CheckBox
+        android:text="kitkat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/b1"
+        android:layout_alignLeft="@+id/b1"
+        android:textColor="@color/white"
+        android:layout_alignStart="@+id/b1" />
+
+    <TextView
+        android:text="ordered chocolates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d"
+        android:layout_toRightOf="@+id/d"
+        android:layout_toEndOf="@+id/d"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="48dp"
+        android:textColor="@color/white"
+        android:hint="ordered chocolates"
+        android:id="@+id/tv" />
+
+    <Button
+        android:text="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:id="@+id/btn" />
+</RelativeLayout>
